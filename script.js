@@ -1,3 +1,11 @@
+function handleKey(event){
+
+if(event.key === "Enter"){
+searchUniversities();
+}
+
+}
+
 async function searchUniversities(){
 
 const country = document.getElementById("searchInput").value;

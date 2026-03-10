@@ -15,8 +15,16 @@
 </header>
 
 <div class="search-box">
-<input type="text" id="searchInput" placeholder="Enter country (example: India)">
+
+<input 
+type="text" 
+id="searchInput" 
+placeholder="Enter country (example: India)"
+onkeypress="handleKey(event)"
+>
+
 <button onclick="searchUniversities()">Search</button>
+
 </div>
 
 <div id="results"></div>
