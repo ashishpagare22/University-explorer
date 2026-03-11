@@ -13,7 +13,7 @@ async function searchUniversities(){
 const country = document.getElementById("searchInput").value;
 
 const response = await fetch(
-`http://universities.hipolabs.com/search?country=${country}`
+`https://universities.hipolabs.com/search?country=${country}`
 );
 
 universities = await response.json();
